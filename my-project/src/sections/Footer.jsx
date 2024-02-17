@@ -4,11 +4,10 @@ import { footerLinks, socialMedia } from '../constants'
 
 const Footer = () => {
   return (
-    <section id='contact-us' className='flex flex-col'>
+    <section className='flex flex-col'>
       <div className='flex flex-row flex-wrap justify-between gap-20 mb-10 max-lg:flex-col'>
         <div className='max-w-[400px]'>
           <a href='#home'> <img src={footerLogo}  alt='logo' width={150} height={46} /> </a>
-          
           <p className='text-[#cfc2c2] font-montserrat leading-7 py-5'>Get shoes ready for the new term at your nearest Nike store. Find Your perfect Size In Store. Get Rewards</p>
           <div className='flex'>
             {
