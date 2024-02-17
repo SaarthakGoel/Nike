@@ -25,7 +25,7 @@ const Nav = () => {
           ))
           }
         </ul>
-        <a className='font-montserrat leading-normal text-lg font-medium pl-2 '>
+        <a className='font-montserrat leading-normal text-lg font-medium pl-2 max-lg:hidden '>
           Sign in / Explore Now
         </a>
         <div className='hidden max-lg:block'>
